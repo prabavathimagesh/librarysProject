@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@1,500&family=Crimson+Text:ital@1&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Josefin+Sans:wght@300;400&family=Kalnia:wght@300;500&family=Kaushan+Script&family=Laila:wght@600&family=Libre+Baskerville:ital@1&family=Merriweather:ital@1&family=Satisfy&family=Smooch&display=swap');
+
+
+.card{
+    background-image: url("https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZSUyMGxpYnJhcnl8ZW58MHx8MHx8fDA%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+input{
+    width: 280px;
+    height: 25px;
+    background: transparent;
+    border: none;
+   background-color: transparent;
+    border-radius: 5px;
+   color: white;
+   border-bottom: 1px solid orangered;
+}
+span{
+    color: orangered;
+}
+h1{
+    letter-spacing: 3px;
+    word-spacing: 3px;
+    font-family: 'Laila', serif;
+    color: white;
+}
+h5{
+    color: white;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Kalnia', serif;
+}
+#loginbtn{
+    background-color: black;
+    color: aliceblue;
+    letter-spacing: 3px;
+    width: 100px;
+    padding: 5px;
+    margin-top: 20px;
+}
+#loginbtn:hover{
+    cursor: pointer;
+}
+.linksinup{
+    padding: 5px;
+    font-weight: 600px;
+    color: orangered;
+    text-decoration: none;
+}
+.linksinup:hover{
+    text-decoration: underline;
+}

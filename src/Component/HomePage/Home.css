@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&family=Caveat&family=Cinzel:wght@500&family=Cormorant+Garamond:ital,wght@1,500&family=Crimson+Text:ital@1&family=Croissant+One&family=Dancing+Script:wght@600&family=Edu+TAS+Beginner:wght@600&family=Fuggles&family=Headland+One&family=Josefin+Sans:wght@300;400&family=Kalnia:wght@300;400;500&family=Kaushan+Script&family=Laila:wght@600&family=Libre+Baskerville:ital@0;1&family=Merriweather:ital@1&family=Preahvihear&family=Satisfy&family=Smooch&display=swap');
+.card{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+span{
+    color: orangered;
+}
+.head{
+    font-family: 'Kalnia', serif;
+    word-spacing: 4px;
+    letter-spacing: 2px;
+}
+.admin{
+    font-family: 'Kalnia', serif;
+    letter-spacing: 2px;
+}
+.adminelogin{
+    width: 210px;
+    height: 20px;
+    padding-left: 50px;
+    
+}
+.button{
+    letter-spacing: 2px;
+    font-size: 20px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
